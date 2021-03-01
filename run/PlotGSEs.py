@@ -54,13 +54,13 @@ def ShowGEs(
         line_width=4, show_marker=False, marker_size=6
 ):
     if fix_which == "alpha":
-        title = r"$\alpha={0:.4f}\pi$".format(fixed_param)
+        title = r"$\alpha={0:.2f}\pi$".format(fixed_param)
         xlabel = r"$\beta/\pi$"
-        d2gses_ylabel = r"$-\frac{d^2E}{d\beta^2}$"
+        d2gses_ylabel = r"-$\frac{d^2E}{d\beta^2}$"
     elif fix_which == "beta":
-        title = r"$\beta={0:.4f}\pi$".format(fixed_param)
+        title = r"$\beta={0:.2f}\pi$".format(fixed_param)
         xlabel = r"$\alpha/\pi$"
-        d2gses_ylabel = r"$-\frac{d^2E}{d\alpha^2}$"
+        d2gses_ylabel = r"-$\frac{d^2E}{d\alpha^2}$"
     else:
         raise ValueError("Invalid `fix_which`: {0}".format(fix_which))
 
