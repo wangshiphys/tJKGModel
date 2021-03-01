@@ -27,7 +27,7 @@ fig, ax = plt.subplots(num="Run{0:0>4d}".format(which))
 for bond in intra:
     (x0, y0), (x1, y1) = bond.endpoints
     ax.plot([x0, x1], [y0, y1], ls="dashed", color="gray", lw=1.0, zorder=0)
-ax.plot(xs, ys, ls="", marker="o", ms=markersize, color="black", zorder=1)
+# ax.plot(xs, ys, ls="", marker="o", ms=markersize, color="black", zorder=1)
 ax.quiver(
     xs, ys, spin_vectors[:, 0], spin_vectors[:, 1], color=colors,
     units="xy", scale_units="xy", scale=1, width=0.06, pivot="mid", zorder=2
