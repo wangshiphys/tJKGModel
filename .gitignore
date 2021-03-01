@@ -112,16 +112,31 @@ venv.bak/
 # log file
 log/
 
-# data file
-data/
+# Some files in `data/` sub-directory
+data/JKGModelLSW.7z
+data/KrylovProjections.7z
+data/ClassicalSpinModel/OptimizedSpinConfig.7z
+data/QuantumSpinModel/ES/*.npz
+data/QuantumSpinModel/GE/*.npz
+data/QuantumSpinModel/Probs/TestFM/data/*.npz
+data/QuantumSpinModel/Probs/TestFM/fig/*.png
+data/QuantumSpinModel/Probs/TestStripe/data/*.npz
+data/QuantumSpinModel/Probs/TestStripe/fig/*.png
+data/QuantumSpinModel/SMSF/data/*.npz
+data/QuantumSpinModel/SMSF/fig/*.png
+data/QuantumSpinModel/Spectrum/data/*.npz
+data/QuantumSpinModel/Spectrum/fig/*.png
 
-# fig file
-fig/
+# References
+doc/References/
 
-# tmp file
-tmp/
+# Some files in `NUM1=2_NUM2=6_Neel/` sub-directory
+NUM1=2_NUM2=6_Neel/tmp/*.npz
+NUM1=2_NUM2=6_Neel/data/QuantumSpinModel.7z
+NUM1=2_NUM2=6_Neel/data/QuantumSpinModel/ES/*.npz
 
-# Execute script
-# run/
+# Some files in `NUM1=2_NUM2=4/data/` sub-directory
+NUM1=4_NUM2=4/data/GE/*.npz
 
-doc/
+# Some files in `NUM1=2_NUM2=5/data/` sub-directory
+NUM1=4_NUM2=5/data/GE/*.npz
