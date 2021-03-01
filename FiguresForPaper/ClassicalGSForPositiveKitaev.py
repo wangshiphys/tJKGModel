@@ -144,10 +144,10 @@ for index in range(6):
         ax.plot(
             [x0, x1], [y0, y1], ls="dashed", color="gray", lw=1.0, zorder=0
         )
-    ax.plot(
-        POINTS[:, 0], POINTS[:, 1],
-        ls="", marker="o", ms=10, color="black", zorder=1,
-    )
+    # ax.plot(
+    #     POINTS[:, 0], POINTS[:, 1],
+    #     ls="", marker="o", ms=10, color="black", zorder=1,
+    # )
     ax.quiver(
         POINTS[:, 0], POINTS[:, 1], spin_vectors[:, 0], spin_vectors[:, 1],
         color=colors, units="xy", scale_units="xy", scale=1.45,
