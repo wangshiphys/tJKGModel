@@ -99,6 +99,10 @@ marker2, = ax.plot(
     KS[:, 0], KS[:, 1],
     ls="", marker="^", ms=MARKERSIZE, color="tab:red", zorder=2,
 )
+marker3, = ax.plot(
+    KS[:, 0] / 2, KS[:, 1] / 2,
+    ls="", marker="v", ms=MARKERSIZE, color="tab:purple", zorder=2,
+)
 ax.text(
     0.5, 0.5, r"$\~\Gamma$",
     fontsize=XLARGE, color="tab:blue", ha="center", va="center",
@@ -123,12 +127,21 @@ ax.text(
     KS[3, 0] + 0.5, KS[3, 1] + 0.5, r"$\~K$",
     fontsize=XLARGE, color="tab:red", ha="center", va="center",
 )
-ax.legend(
+legend1 = ax.legend(
     [marker0, marker1], ["FM", "Stripe"],
-    bbox_to_anchor=(1.08, 0.94), bbox_transform=ax.transAxes,
-    fontsize=MEDIUM, loc="upper right", frameon=True, shadow=True,
-    borderpad=0.1, handletextpad=0.1, borderaxespad=0.0
+    bbox_to_anchor=(1.05, 0.90), bbox_transform=ax.transAxes,
+    fontsize=XXSMALL, loc="upper right", frameon=True, shadow=True,
+    borderpad=0.25, handletextpad=0.1, borderaxespad=0.0
 )
+legend2 = ax.legend(
+    [marker2, marker3],
+    [r"120$^\circ$ N$\mathsf{\acute e}$el", r"Dual N$\mathsf{\acute e}$el"],
+    bbox_to_anchor=(1.09, 0.10), bbox_transform=ax.transAxes,
+    fontsize=XXSMALL, loc="lower right", frameon=True, shadow=True,
+    borderpad=0.25, handletextpad=0.1, borderaxespad=0.0
+)
+ax.add_artist(legend1)
+ax.add_artist(legend2)
 ax.text(
     0.1, 0.93, "(i)",
     fontsize=XLARGE, ha="left", va="top", transform=ax.transAxes,
