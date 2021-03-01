@@ -89,10 +89,10 @@ for index in range(4):
         color=colors, units="xy", scale_units="xy", scale=1.45,
         width=0.06, pivot="mid", clip_on=False, zorder=1,
     )
-    ax.plot(
-        POINTS[:, 0], POINTS[:, 1],
-        color="k", ls="", marker="o", ms=15, zorder=2
-    )
+    # ax.plot(
+    #     POINTS[:, 0], POINTS[:, 1],
+    #     color="k", ls="", marker="o", ms=15, zorder=2
+    # )
 
     ax.text(
         1.0, 1.5 * SQRT3, sub_fig_tag,
