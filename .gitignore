@@ -109,19 +109,41 @@ venv.bak/
 # vscode
 .vscode/
 
-# log file
-log/
+data/ClassicalSpinModel/OptimizedSpinConfig.7z
 
-# data file
-data/
+data/QuantumSpinModel/ES/*.npz
+data/QuantumSpinModel/GE/*.npz
 
-# fig file
-fig/
+data/QuantumSpinModel/Probs/TestFM/data/*.npz
+data/QuantumSpinModel/Probs/TestFM/fig/*.png
+data/QuantumSpinModel/Probs/TestStripe/data/*.npz
+data/QuantumSpinModel/Probs/TestStripe/fig/*.png
 
-# tmp file
-tmp/
+data/QuantumSpinModel/SMSF/data/*.npz
+data/QuantumSpinModel/SMSF/fig/*.png
 
-# Execute script
-# run/
+data/QuantumSpinModel/Spectrum/data/*.npz
+data/QuantumSpinModel/Spectrum/fig/*.png
 
-doc/
+data/JKGModelLSW.7z
+data/KrylovProjections.7z
+
+doc/References/
+
+
+## log file
+#log/
+#
+## data file
+#data/
+#
+## fig file
+#fig/
+#
+## tmp file
+#tmp/
+#
+## Execute script
+## run/
+#
+#doc/
