@@ -5,8 +5,7 @@ import tables as tb
 
 from StructureFactor import ClassicalSpinStructureFactor
 
-data_path = "C:/Users/swang/Desktop/Working/"
-data_path += "JKGModel/data/ClassicalSpinModel/OptimizedSpinConfig/"
+data_path = "../data/ClassicalSpinModel/OptimizedSpinConfig/"
 data_name_temp = "OSC_num0=12_num1=12_alpha={0:.4f}_beta={1:.4f}.h5"
 
 step = 0.01
