@@ -113,18 +113,14 @@ venv.bak/
 log/
 
 # Some files in `data/` sub-directory
-data/JKGModelLSW.7z
 data/KrylovProjections.7z
 data/ClassicalSpinModel/OptimizedSpinConfig.7z
 data/QuantumSpinModel/ES/*.npz
 data/QuantumSpinModel/GE/*.npz
-data/QuantumSpinModel/Probs/TestFM/data/*.npz
 data/QuantumSpinModel/Probs/TestFM/fig/*.png
-data/QuantumSpinModel/Probs/TestStripe/data/*.npz
 data/QuantumSpinModel/Probs/TestStripe/fig/*.png
 data/QuantumSpinModel/SMSF/data/*.npz
 data/QuantumSpinModel/SMSF/fig/*.png
-data/QuantumSpinModel/Spectrum/data/*.npz
 data/QuantumSpinModel/Spectrum/fig/*.png
 
 # References
