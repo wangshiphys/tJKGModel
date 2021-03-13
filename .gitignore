@@ -114,17 +114,13 @@ log/
 
 # Some files in `data/` sub-directory
 data/KrylovProjections.7z
-data/ClassicalSpinModel/OptimizedSpinConfig.7z
 data/QuantumSpinModel/ES/*.npz
 data/QuantumSpinModel/GE/*.npz
-data/QuantumSpinModel/Probs/TestFM/fig/*.png
-data/QuantumSpinModel/Probs/TestStripe/fig/*.png
-data/QuantumSpinModel/SMSF/data/*.npz
 data/QuantumSpinModel/SMSF/fig/*.png
 data/QuantumSpinModel/Spectrum/fig/*.png
-
-# References
-doc/References/
+data/QuantumSpinModel/Probs/TestFM/fig/*.png
+data/QuantumSpinModel/Probs/TestStripe/fig/*.png
+data/ClassicalSpinModel/OptimizedSpinConfig.7z
 
 # Some files in `NUM1=2_NUM2=6_Neel/` sub-directory
 NUM1=2_NUM2=6_Neel/tmp/*.npz
